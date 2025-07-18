@@ -69,6 +69,30 @@ Learned from the [Programming with Mosh](https://www.youtube.com/@programmingwit
 📂 **[View Code →](./FizzBuzz.py)**
 
 ---
+🧪 Program 3: Number Guessing Game  
+📝 Description:  
+This is an interactive terminal-based number guessing game with three difficulty levels:  
+
+- **Easy**: Guess a number between 1 and 10 (5 attempts)  
+- **Medium**: Guess a number between 1 and 50 (10 attempts)  
+- **Hard**: Guess a number between 1 and 100 (15 attempts)  
+
+The program randomly generates a number and gives the player hints ("too low" or "too high") after each guess. The game supports replaying and ends gracefully when the user chooses to quit.
+
+📌 Concepts Covered:  
+- Input/Output  
+- Loops (`for`, `while`)  
+- Conditional Statements (`if`, `elif`, `else`)  
+- Random Number Generation (`random.randint()`)  
+- Functions and Code Structuring  
+- Basic Game Logic  
+
+📚 Reference:  
+Learned from the Programming with Mosh Python Basics tutorial.
+
+📂 **[View Code →](./number_guessing_game.py)**
+
+---
 
 ### 🎯 Goal
 
