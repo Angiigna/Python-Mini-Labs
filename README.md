@@ -23,49 +23,55 @@ Welcome! This repository is a personal catalog of mini Python programs that docu
 Happy Coding! ✨
 
 ---
-## 📘 Program: Terminal-Based Calculator
+### 🔢 Program 1: Terminal-Based Calculator
 
-This is a beginner Python program that runs in the terminal and performs six basic arithmetic operations: `+`, `-`, `*`, `/`, `**`, and `//`.
+**📝 Description:**  
+A simple calculator that runs in the terminal and performs basic arithmetic operations:  
+Addition (`+`), Subtraction (`-`), Multiplication (`*`), Division (`/`), Exponentiation (`**`), and Floor Division (`//`).  
+The user inputs two numbers and an operator, and the result is displayed.
 
-### 🎯 Concepts Covered
-- User Input and Output
-- Variables and Data Types
-- Conditional Logic
+**📌 Concepts Covered:**
+- Input/Output
+- Variables & Data Types
 - Arithmetic Operators
+- Conditional Statements (`if-elif-else`)
 - Basic Error Handling (e.g., division by zero)
-- f-strings for formatting
+- String Formatting using `f-strings`
 
-### 📚 Reference
-This was built after following the **Programming with Mosh** YouTube tutorial on Python basics. 
-Having prior experience with programming made the transition to Python quite smooth.
+**📚 Reference:**  
+Learned from the [Programming with Mosh](https://www.youtube.com/@programmingwithmosh) Python Basics tutorial.  
+Prior experience with C, C++, and JavaScript helped in picking up Python quickly.
 
-📁 [View Code](./simple_calculator.py)
+📂 **[View Code →](./simple_calculator.py)**
+
 ---
-### 🧪 FizzBuzz
 
-**Description:**  
-The FizzBuzz program prints numbers from 1 up to a user-specified value. For each number:
-- If divisible by **3**, it prints `"Fizz"`
-- If divisible by **5**, it prints `"Buzz"`
-- If divisible by **both 3 and 5**, it prints `"FizzBuzz"`
-- Otherwise, it prints the number itself
+### 🧪 Program 2: FizzBuzz
 
-**Purpose:**  
-This is a classic beginner-level coding exercise that reinforces core Python concepts like:
-- Loops (`for` loop with `range`)
+**📝 Description:**  
+This classic beginner-level program prints numbers from `1` to a user-defined limit. Based on divisibility:
+- Prints `"Fizz"` if divisible by 3
+- Prints `"Buzz"` if divisible by 5
+- Prints `"FizzBuzz"` if divisible by both 3 and 5
+- Otherwise, prints the number itself
+
+**📌 Concepts Covered:**
+- Input/Output
+- Loops (`for`, `range`)
 - Conditionals (`if`, `elif`, `else`)
-- Modulo operator (`%`)
-- Input and type conversion (`input()`, `int()`)
+- Modulo Operator (`%`)
+- Functions
+- Logic Building
 
-**Concepts Covered:**  
-`Input/Output`, `Loops`, `Conditionals`, `Modulo`, `Functions`, `Basic Logic Building`
+**📚 Reference:**  
+Learned from the [Programming with Mosh](https://www.youtube.com/@programmingwithmosh) Python Basics tutorial.
 
-**Reference:**  
-Basics of Python learned from [Programming with Mosh (YouTube)](https://www.youtube.com/@programmingwithmosh)
+📂 **[View Code →](./FizzBuzz.py)**
 
-📁 [View Code](./FizzBuzz.py)
+---
 
-### 🧠 Goal
-This is part of my effort to catalog small, concept-focused Python programs as session deliverables that others can use to follow along or practice.
+### 🎯 Goal
+
+These mini programs are part of a structured, hands-on approach to learning Python. Each script is designed to reinforce specific topics while providing practical examples. The aim is to create a useful reference for myself and other beginners who want to follow a topic-wise, project-backed learning path.
 
 
