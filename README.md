@@ -39,6 +39,32 @@ This is a beginner Python program that runs in the terminal and performs six bas
 This was built after following the **Programming with Mosh** YouTube tutorial on Python basics. 
 Having prior experience with programming made the transition to Python quite smooth.
 
+📁 [View Code](./simple_calculator.py)
+---
+### 🧪 FizzBuzz
+
+**Description:**  
+The FizzBuzz program prints numbers from 1 up to a user-specified value. For each number:
+- If divisible by **3**, it prints `"Fizz"`
+- If divisible by **5**, it prints `"Buzz"`
+- If divisible by **both 3 and 5**, it prints `"FizzBuzz"`
+- Otherwise, it prints the number itself
+
+**Purpose:**  
+This is a classic beginner-level coding exercise that reinforces core Python concepts like:
+- Loops (`for` loop with `range`)
+- Conditionals (`if`, `elif`, `else`)
+- Modulo operator (`%`)
+- Input and type conversion (`input()`, `int()`)
+
+**Concepts Covered:**  
+`Input/Output`, `Loops`, `Conditionals`, `Modulo`, `Functions`, `Basic Logic Building`
+
+**Reference:**  
+Basics of Python learned from [Programming with Mosh (YouTube)](https://www.youtube.com/@programmingwithmosh)
+
+📁 [View Code](./FizzBuzz.py)
+
 ### 🧠 Goal
 This is part of my effort to catalog small, concept-focused Python programs as session deliverables that others can use to follow along or practice.
 
