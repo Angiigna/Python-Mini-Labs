@@ -93,10 +93,6 @@ Learned from the Programming with Mosh Python Basics tutorial.
 📂 **[View Code →](./number_guessing_game.py)**
 
 ---
-Here's your markdown section for the **Linear Search** program, following the same format and tone as your previous entries:
-
----
-
 ### 🔍 Program 4: Linear Search
 
 📝 **Description:**
