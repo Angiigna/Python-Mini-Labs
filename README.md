@@ -115,10 +115,43 @@ Linear Search is one of the most fundamental algorithms in computer science. It 
 * [CodeSavant YouTube Channel](https://www.youtube.com/@CodeSavant)
 * [Corey Schafer - Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
 
-📂 **[View Code →](./linear_search.py)**
+📂 **[View Code →](./Linear_search.py)**
 
 ---
+### 🧪 Program 5: Binary Search
 
+📝 **Description:**
+This program demonstrates the **Binary Search** algorithm, a powerful method for efficiently finding an item in a sorted list. It repeatedly divides the search interval in half to quickly narrow down the location of the target number.
+
+* First, the user inputs a list of integers and a number to search for.
+* The list is automatically sorted.
+* A recursive function is used to apply the binary search logic.
+* If the item is found, its index is displayed; if not, a message is shown.
+
+📌 **Concepts Covered:**
+
+* Input/Output
+* Sorting a List
+* Recursion
+* Binary Search Logic
+* Conditionals
+* Divide and Conquer Strategy
+
+📚 **Reference:**
+This program was inspired by:
+
+* [CodeSavant](https://www.youtube.com/@CodeSavant)
+* [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
+
+🧠 **Why It Matters:**
+Binary search is one of the most **fundamental algorithms in computer science**, especially relevant in contexts where **performance matters** (like searching large databases or implementing search bars). Understanding how it narrows down options using mathematical logic helps build a solid foundation for learning more advanced algorithms.
+
+⚠️ **Note:**
+I’ve jumped ahead to implement this relatively advanced search algorithm even though I haven’t yet formally covered some basics like **lists and loops in depth**. This is possible due to my prior experience with programming. Simpler programs that focus on those basic concepts will likely be added in upcoming sessions to balance the learning curve.
+
+📂 **[View Code →](./Binary_search.py)**
+
+---
 ### 🎯 Goal
 
 These mini programs are part of a structured, hands-on approach to learning Python. Each script is designed to reinforce specific topics while providing practical examples. The aim is to create a useful reference for myself and other beginners who want to follow a topic-wise, project-backed learning path.
