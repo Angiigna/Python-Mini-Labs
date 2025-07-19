@@ -93,6 +93,35 @@ Learned from the Programming with Mosh Python Basics tutorial.
 📂 **[View Code →](./number_guessing_game.py)**
 
 ---
+Here's your markdown section for the **Linear Search** program, following the same format and tone as your previous entries:
+
+---
+
+### 🔍 Program 4: Linear Search
+
+📝 **Description:**
+This program performs a **linear search** on a list of numbers provided by the user. It goes through each element in the list one by one to find the specified item. If found, it prints the index at which the item occurs; if not, it notifies the user that the item is not present.
+
+📌 **Concepts Covered:**
+
+* User Input and Output
+* Type Conversion (`str` → `int`)
+* Lists (created using `split()` and `map()`)
+* `for` loop with `enumerate()`
+* `if-else` control structures
+* Search logic and early loop termination (`break`, `else` on loop)
+
+💡 **Why It’s Important:**
+Linear Search is one of the most fundamental algorithms in computer science. It introduces beginners to algorithmic thinking and search operations, forming the foundation for more advanced algorithms like Binary Search and data structures like arrays and linked lists. It also reinforces iteration, conditionals, and loop control flow.
+
+📚 **References:**
+
+* [CodeSavant YouTube Channel](https://www.youtube.com/@CodeSavant)
+* [Corey Schafer - Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+
+📂 **[View Code →](./linear_search.py)**
+
+---
 
 ### 🎯 Goal
 
