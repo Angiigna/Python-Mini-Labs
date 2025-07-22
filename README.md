@@ -152,6 +152,38 @@ I’ve jumped ahead to implement this relatively advanced search algorithm even 
 📂 **[View Code →](./Binary_search.py)**
 
 ---
+### 🧪 Program 5: Transcription Simulator
+**📝 Description:**
+This biology-inspired program simulates the process of DNA transcription, converting a DNA strand entered by the user into its corresponding RNA strand. The simulation follows the real-life base pairing rules in transcription:
+
+A (Adenine) → U (Uracil)
+
+T (Thymine) → A (Adenine)
+
+G (Guanine) → C (Cytosine)
+
+C (Cytosine) → G (Guanine)
+
+Invalid bases are handled with an error message. This is a foundational concept in molecular biology and makes for an exciting blend of programming and life sciences.
+
+**📌 Concepts Covered:**
+
+String manipulation
+
+Lists and iteration
+
+Conditionals (if, elif, else)
+
+Basic biological logic implementation
+
+Error handling for unexpected input
+
+**📚 Reference:**
+Self-developed based on prior knowledge of Python and genetics. No external tutorials used.
+
+**[📂 View Code →](.transcription_simulator.py)**
+
+---
 ### 🎯 Goal
 
 These mini programs are part of a structured, hands-on approach to learning Python. Each script is designed to reinforce specific topics while providing practical examples. The aim is to create a useful reference for myself and other beginners who want to follow a topic-wise, project-backed learning path.
