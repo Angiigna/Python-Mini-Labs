@@ -184,6 +184,35 @@ Self-developed based on prior knowledge of Python and genetics. No external tuto
 **[📂 View Code →](./transcription_simulator.py)**
 
 ---
+### 🧪 Program 6: DNA/RNA Sequence Validator
+**📝 Description:**
+This program checks if a user-input nucleotide sequence is a valid DNA or RNA strand by verifying the characters in the input against biological rules:
+
+DNA bases: A (Adenine), T (Thymine), G (Guanine), C (Cytosine)
+
+RNA bases: A (Adenine), U (Uracil), G (Guanine), C (Cytosine)
+
+It processes the input to remove whitespace and standardizes case before validation. This tool is especially useful for learners combining biology with basic programming.
+
+**📌 Concepts Covered:**
+
+String manipulation (strip(), upper())
+
+Conditional statements (if, elif, else)
+
+Looping through strings
+
+Custom function creation
+
+Basic bioinformatics logic
+
+**📚 Reference:**
+Original idea based on real biological rules. Program developed independently using concepts covered in earlier sessions.
+
+**[📂 View Code →](./dnaorrna_validator)**
+
+
+---
 ### 🎯 Goal
 
 These mini programs are part of a structured, hands-on approach to learning Python. Each script is designed to reinforce specific topics while providing practical examples. The aim is to create a useful reference for myself and other beginners who want to follow a topic-wise, project-backed learning path.
