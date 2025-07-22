@@ -209,7 +209,7 @@ Basic bioinformatics logic
 **📚 Reference:**
 Original idea based on real biological rules. Program developed independently using concepts covered in earlier sessions.
 
-**[📂 View Code →](./dnaorrna_validator)**
+**[📂 View Code →](./dnaorrna_validator.py)**
 
 
 ---
