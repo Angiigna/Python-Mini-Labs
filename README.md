@@ -181,7 +181,7 @@ Error handling for unexpected input
 **📚 Reference:**
 Self-developed based on prior knowledge of Python and genetics. No external tutorials used.
 
-**[📂 View Code →](.transcription_simulator.py)**
+**[📂 View Code →](./transcription_simulator.py)**
 
 ---
 ### 🎯 Goal
