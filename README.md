@@ -211,7 +211,34 @@ Original idea based on real biological rules. Program developed independently us
 
 **[📂 View Code →](./dnaorrna_validator.py)**
 
+---
+### 🔢 Program X: Central Dogma – DNA to Protein Translator
 
+
+📝 **Description:**
+This program simulates the **Central Dogma of Molecular Biology**, covering both:
+
+* **Transcription**: Converts a given DNA strand to mRNA.
+* **Translation**: Begins from the first `AUG` start codon in the mRNA and translates codons into their corresponding amino acids using a codon dictionary.
+
+Transcription is implemented using a **dictionary mapping** of base pairs (A→U, T→A, G→C, C→G), offering a cleaner and more scalable alternative to the if-else ladder used in the earlier `Transcription Simulator`.
+The translation process uses a standard codon table (64 entries) to map RNA triplets to full amino acid names.
+
+
+📌 **Concepts Covered:**
+
+* Biological Processes: Transcription and Translation
+* DNA → mRNA → Protein
+* String Manipulation
+* Dictionary Usage
+* Functions and Reusability
+* Basic Validation and Error Handling
+* Loops and Conditional Logic
+
+📚 **Reference:**
+This program was created entirely from scratch, based on understanding of biology concepts (central dogma, codons) and previously learned Python logic from  [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
+
+📂 **[View Code →](./Central_dogma.py)** 
 ---
 ### 🎯 Goal
 
