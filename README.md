@@ -215,7 +215,7 @@ Original idea based on real biological rules. Program developed independently us
 ### 🔢 Program X: Central Dogma – DNA to Protein Translator
 
 
-📝 **Description:**
+**📝 Description:**
 This program simulates the **Central Dogma of Molecular Biology**, covering both:
 
 * **Transcription**: Converts a given DNA strand to mRNA.
@@ -225,7 +225,7 @@ Transcription is implemented using a **dictionary mapping** of base pairs (A→U
 The translation process uses a standard codon table (64 entries) to map RNA triplets to full amino acid names.
 
 
-📌 **Concepts Covered:**
+**📌 Concepts Covered:**
 
 * Biological Processes: Transcription and Translation
 * DNA → mRNA → Protein
@@ -235,10 +235,11 @@ The translation process uses a standard codon table (64 entries) to map RNA trip
 * Basic Validation and Error Handling
 * Loops and Conditional Logic
 
-📚 **Reference:**
+**📚 Reference:**
 This program was created entirely from scratch, based on understanding of biology concepts (central dogma, codons) and previously learned Python logic from  [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
 
-**[📂 View Code →](./Central_dogma.py)** 
+**[📂 View Code →](./Central_dogma.py)**
+
 ---
 ### 🎯 Goal
 
