@@ -152,7 +152,7 @@ I’ve jumped ahead to implement this relatively advanced search algorithm even 
 📂 **[View Code →](./Binary_search.py)**
 
 ---
-### 🧪 Program 5: Transcription Simulator
+### 🧪 Program 6: Transcription Simulator
 **📝 Description:**
 This biology-inspired program simulates the process of DNA transcription, converting a DNA strand entered by the user into its corresponding RNA strand. The simulation follows the real-life base pairing rules in transcription:
 
@@ -184,7 +184,7 @@ Self-developed based on prior knowledge of Python and genetics. No external tuto
 **[📂 View Code →](./transcription_simulator.py)**
 
 ---
-### 🧪 Program 6: DNA/RNA Sequence Validator
+### 🧪 Program 7: DNA/RNA Sequence Validator
 **📝 Description:**
 This program checks if a user-input nucleotide sequence is a valid DNA or RNA strand by verifying the characters in the input against biological rules:
 
@@ -212,7 +212,7 @@ Original idea based on real biological rules. Program developed independently us
 **[📂 View Code →](./dnaorrna_validator.py)**
 
 ---
-### 🔢 Program X: Central Dogma – DNA to Protein Translator
+### 🔢 Program 8: Central Dogma – DNA to Protein Translator
 
 
 **📝 Description:**
@@ -239,6 +239,33 @@ The translation process uses a standard codon table (64 entries) to map RNA trip
 This program was created entirely from scratch, based on understanding of biology concepts (central dogma, codons) and previously learned Python logic from  [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
 
 **[📂 View Code →](./Central_dogma.py)**
+
+---
+### 🗒️ Program 9: Note Taker – Basic File Handling Utility
+**📝 Description:**
+This program simulates a basic note-taking utility in the terminal using file handling in Python.
+Users can:
+
+Create a new note (which writes to a new .txt file)
+
+Append content to an existing note (adds to the file without overwriting)
+
+It checks for existing files using the os module and uses both open() and with statements to safely handle files. This program is a foundational practice in working with persistent data storage using text files.
+
+**📌 Concepts Covered:**
+
+*File Handling in Python (write, append)
+*Checking File Existence (os.path.exists())
+*Input/Output Operations
+*String Processing (strip(), lower())
+*Conditional Logic
+*Use of with statement for safe file access
+
+**📚 Reference:**
+This program was built while learning from Dave Gray’s Python File Handling for Beginners on YouTube.
+
+**[📂 View Code →](./note_taker.py)**
+
 
 ---
 ### 🎯 Goal
