@@ -238,7 +238,7 @@ The translation process uses a standard codon table (64 entries) to map RNA trip
 📚 **Reference:**
 This program was created entirely from scratch, based on understanding of biology concepts (central dogma, codons) and previously learned Python logic from  [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
 
-📂 **[View Code →](./Central_dogma.py)** 
+**📂[View Code →](./Central_dogma.py)** 
 ---
 ### 🎯 Goal
 
