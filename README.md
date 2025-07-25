@@ -265,8 +265,40 @@ It checks for existing files using the os module and uses both open() and with s
 This program was built while learning from Dave Gray’s Python File Handling for Beginners on YouTube.
 
 **[📂 View Code →](./note_taker.py)**
+---
+### 🧬 Program 10: FASTA File Reader – Sequence Extractor for Bioinformatics
+**📝 Description:**
+This program reads biological sequence data from a FASTA-formatted file. It extracts:
 
+The sequence identifier (starting with >)
 
+The corresponding multi-line DNA or RNA sequence
+
+These are stored as key-value pairs in a dictionary and then printed to the console.
+The program validates the filename before reading and handles both single-line and multi-line FASTA records gracefully.
+
+**📌 Concepts Covered:**
+
+File Handling in Python (open(), .readlines())
+
+Dictionary Usage for storing structured data
+
+String Processing (strip(), startswith())
+
+Looping and Conditional Logic
+
+Basic Input Validation (os.path.exists())
+
+Parsing of Bioinformatics Formats (FASTA)
+
+**🧪 Sample File Included:**
+A sample file named angi.txt is provided in the repository. It is formatted like a FASTA file and can be used to test and demonstrate the working of the program. 
+**[See the file here →](./angi.txt)**
+
+**📚 Reference:**
+This program was created from scratch using previously learned Python concepts and bioinformatics file format knowledge. No external reference material was used.
+
+**[📂 View Code →](./fastafile_reader.py)**
 ---
 ### 🎯 Goal
 
