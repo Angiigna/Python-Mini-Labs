@@ -284,7 +284,7 @@ A sample file named angi.txt is provided in the repository. It is formatted like
 **📚 Reference:**
 This program was created from scratch using previously learned Python concepts and bioinformatics file format knowledge. No external reference material was used.
 
-**[📂 View Code →](./fastfile_reader.py)**
+**[📂 View Code →](./fastafile_reader.py)**
 
 ---
 ### 🎯 Goal
