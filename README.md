@@ -100,20 +100,20 @@ This program performs a **linear search** on a list of numbers provided by the u
 
 📌 **Concepts Covered:**
 
-* User Input and Output
-* Type Conversion (`str` → `int`)
-* Lists (created using `split()` and `map()`)
-* `for` loop with `enumerate()`
-* `if-else` control structures
-* Search logic and early loop termination (`break`, `else` on loop)
+- User Input and Output
+- Type Conversion (`str` → `int`)
+- Lists (created using `split()` and `map()`)
+- `for` loop with `enumerate()`
+- `if-else` control structures
+- Search logic and early loop termination (`break`, `else` on loop)
 
 💡 **Why It’s Important:**
 Linear Search is one of the most fundamental algorithms in computer science. It introduces beginners to algorithmic thinking and search operations, forming the foundation for more advanced algorithms like Binary Search and data structures like arrays and linked lists. It also reinforces iteration, conditionals, and loop control flow.
 
 📚 **References:**
 
-* [CodeSavant YouTube Channel](https://www.youtube.com/@CodeSavant)
-* [Corey Schafer - Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+- [CodeSavant YouTube Channel](https://www.youtube.com/@CodeSavant)
+- [Corey Schafer - Python Programming Beginner Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
 
 📂 **[View Code →](./Linear_search.py)**
 
@@ -123,25 +123,23 @@ Linear Search is one of the most fundamental algorithms in computer science. It 
 📝 **Description:**
 This program demonstrates the **Binary Search** algorithm, a powerful method for efficiently finding an item in a sorted list. It repeatedly divides the search interval in half to quickly narrow down the location of the target number.
 
-* First, the user inputs a list of integers and a number to search for.
-* The list is automatically sorted.
-* A recursive function is used to apply the binary search logic.
-* If the item is found, its index is displayed; if not, a message is shown.
+- First, the user inputs a list of integers and a number to search for.
+- The list is automatically sorted.
+- A recursive function is used to apply the binary search logic.
+- If the item is found, its index is displayed; if not, a message is shown.
 
 📌 **Concepts Covered:**
 
-* Input/Output
-* Sorting a List
-* Recursion
-* Binary Search Logic
-* Conditionals
-* Divide and Conquer Strategy
+- Input/Output
+- Sorting a List
+- Recursion
+- Binary Search Logic
+- Conditionals
+- Divide and Conquer Strategy
 
 📚 **Reference:**
 This program was inspired by:
-
-* [CodeSavant](https://www.youtube.com/@CodeSavant)
-* [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
+- [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
 
 🧠 **Why It Matters:**
 Binary search is one of the most **fundamental algorithms in computer science**, especially relevant in contexts where **performance matters** (like searching large databases or implementing search bars). Understanding how it narrows down options using mathematical logic helps build a solid foundation for learning more advanced algorithms.
@@ -156,27 +154,23 @@ I’ve jumped ahead to implement this relatively advanced search algorithm even 
 **📝 Description:**
 This biology-inspired program simulates the process of DNA transcription, converting a DNA strand entered by the user into its corresponding RNA strand. The simulation follows the real-life base pairing rules in transcription:
 
-A (Adenine) → U (Uracil)
+- A (Adenine) → U (Uracil)
 
-T (Thymine) → A (Adenine)
+- T (Thymine) → A (Adenine)
 
-G (Guanine) → C (Cytosine)
+- G (Guanine) → C (Cytosine)
 
-C (Cytosine) → G (Guanine)
+- C (Cytosine) → G (Guanine)
 
 Invalid bases are handled with an error message. This is a foundational concept in molecular biology and makes for an exciting blend of programming and life sciences.
 
 **📌 Concepts Covered:**
 
-String manipulation
-
-Lists and iteration
-
-Conditionals (if, elif, else)
-
-Basic biological logic implementation
-
-Error handling for unexpected input
+- String manipulation
+- Lists and iteration
+- Conditionals (if, elif, else)
+- Basic biological logic implementation
+- Error handling for unexpected input
 
 **📚 Reference:**
 Self-developed based on prior knowledge of Python and genetics. No external tutorials used.
@@ -188,23 +182,19 @@ Self-developed based on prior knowledge of Python and genetics. No external tuto
 **📝 Description:**
 This program checks if a user-input nucleotide sequence is a valid DNA or RNA strand by verifying the characters in the input against biological rules:
 
-DNA bases: A (Adenine), T (Thymine), G (Guanine), C (Cytosine)
+- DNA bases: A (Adenine), T (Thymine), G (Guanine), C (Cytosine)
 
-RNA bases: A (Adenine), U (Uracil), G (Guanine), C (Cytosine)
+- RNA bases: A (Adenine), U (Uracil), G (Guanine), C (Cytosine)
 
 It processes the input to remove whitespace and standardizes case before validation. This tool is especially useful for learners combining biology with basic programming.
 
 **📌 Concepts Covered:**
 
-String manipulation (strip(), upper())
-
-Conditional statements (if, elif, else)
-
-Looping through strings
-
-Custom function creation
-
-Basic bioinformatics logic
+- String manipulation (strip(), upper())
+- Conditional statements (if, elif, else)
+- Looping through strings
+- Custom function creation
+- Basic bioinformatics logic
 
 **📚 Reference:**
 Original idea based on real biological rules. Program developed independently using concepts covered in earlier sessions.
@@ -218,8 +208,8 @@ Original idea based on real biological rules. Program developed independently us
 **📝 Description:**
 This program simulates the **Central Dogma of Molecular Biology**, covering both:
 
-* **Transcription**: Converts a given DNA strand to mRNA.
-* **Translation**: Begins from the first `AUG` start codon in the mRNA and translates codons into their corresponding amino acids using a codon dictionary.
+- **Transcription**: Converts a given DNA strand to mRNA.
+- **Translation**: Begins from the first `AUG` start codon in the mRNA and translates codons into their corresponding amino acids using a codon dictionary.
 
 Transcription is implemented using a **dictionary mapping** of base pairs (A→U, T→A, G→C, C→G), offering a cleaner and more scalable alternative to the if-else ladder used in the earlier `Transcription Simulator`.
 The translation process uses a standard codon table (64 entries) to map RNA triplets to full amino acid names.
@@ -227,13 +217,13 @@ The translation process uses a standard codon table (64 entries) to map RNA trip
 
 **📌 Concepts Covered:**
 
-* Biological Processes: Transcription and Translation
-* DNA → mRNA → Protein
-* String Manipulation
-* Dictionary Usage
-* Functions and Reusability
-* Basic Validation and Error Handling
-* Loops and Conditional Logic
+- Biological Processes: Transcription and Translation
+- DNA → mRNA → Protein
+- String Manipulation
+- Dictionary Usage
+- Functions and Reusability
+- Basic Validation and Error Handling
+- Loops and Conditional Logic
 
 **📚 Reference:**
 This program was created entirely from scratch, based on understanding of biology concepts (central dogma, codons) and previously learned Python logic from  [Corey Schafer's Python Tutorials](https://www.youtube.com/user/schafer5)
@@ -246,20 +236,20 @@ This program was created entirely from scratch, based on understanding of biolog
 This program simulates a basic note-taking utility in the terminal using file handling in Python.
 Users can:
 
-Create a new note (which writes to a new .txt file)
+- Create a new note (which writes to a new .txt file)
 
-Append content to an existing note (adds to the file without overwriting)
+- Append content to an existing note (adds to the file without overwriting)
 
-It checks for existing files using the os module and uses both open() and with statements to safely handle files. This program is a foundational practice in working with persistent data storage using text files.
+- It checks for existing files using the os module and uses both open() and with statements to safely handle files. This program is a foundational practice in working with persistent data storage using text files.
 
 **📌 Concepts Covered:**
 
-*File Handling in Python (write, append)
-*Checking File Existence (os.path.exists())
-*Input/Output Operations
-*String Processing (strip(), lower())
-*Conditional Logic
-*Use of with statement for safe file access
+- File Handling in Python (write, append)
+- Checking File Existence (os.path.exists())
+- Input/Output Operations
+- String Processing (strip(), lower())
+- Conditional Logic
+- Use of with statement for safe file access
 
 **📚 Reference:**
 This program was built while learning from Dave Gray’s Python File Handling for Beginners on YouTube.
@@ -279,17 +269,12 @@ The program validates the filename before reading and handles both single-line a
 
 **📌 Concepts Covered:**
 
-File Handling in Python (open(), .readlines())
-
-Dictionary Usage for storing structured data
-
-String Processing (strip(), startswith())
-
-Looping and Conditional Logic
-
-Basic Input Validation (os.path.exists())
-
-Parsing of Bioinformatics Formats (FASTA)
+- File Handling in Python (open(), .readlines())
+- Dictionary Usage for storing structured data
+- String Processing (strip(), startswith())
+- Looping and Conditional Logic
+- Basic Input Validation (os.path.exists())
+- Parsing of Bioinformatics Formats (FASTA)
 
 **🧪 Sample File Included:**
 A sample file named angi.txt is provided in the repository. It is formatted like a FASTA file and can be used to test and demonstrate the working of the program. 
